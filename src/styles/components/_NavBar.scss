@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(131, 46, 46);
+
+    .header__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 0;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header__logo {
+            font-style: italic;
+            font-weight: 700;
+            font-size: 3rem;
+        }
+        
+        .header__nav {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            .header__link {
+                color: white;
+                font-size: 18px;
+                text-transform: uppercase;
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(194, 169, 129)
+                }
+            }
+        }
+    }
+}

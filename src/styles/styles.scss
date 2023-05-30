@@ -1,0 +1,15 @@
+
+
+@import './components/NavBar';
+@import './components/CartWidget';
+@import './components/ItemListContainer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(139, 119, 87) 
+}
