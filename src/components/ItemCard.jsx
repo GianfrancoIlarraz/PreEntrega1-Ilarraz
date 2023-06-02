@@ -1,14 +1,14 @@
 /* eslint-disable react/prop-types */
 
 
-const ItemCard = ({ items }) => {
+const ItemCard = ({ ID, Nombre, Precio, Descripcion, img }) => {
 
     return (
         <div >
-            <img src={items.img} alt={items.ID} />
-            <h2>{items.ID} {items.Nombre}</h2>
-            <h3>{items.Precio}</h3>
-            <p>{items.Descripción}</p>
+            <img src={img} alt={ID} />
+            <h2>{ID} {Nombre}</h2>
+            <h3>{Precio}</h3>
+            <p>{Descripcion}</p>
         </div>
     )
 }
