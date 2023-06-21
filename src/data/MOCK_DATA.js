@@ -2,64 +2,75 @@
 export const MOCK_DATA = [
     {
         ID: 1,
-        Nombre: 'Producto1',
+        Nombre: 'Tarjeta de video 20XX',
         Precio: '$ 1500',
-        Descripcion: 'Lorem ipsum dolor sit',
+        Descripcion: 'Tarjeta de video modelo 20XX',
         img: "https://dummyimage.com/300x300/000/e3e3e3.png",
         Categoria: 'hardware',
+        stock: 5,
     },
     {
         ID: 2,
-        Nombre: 'Producto2',
-        Precio: '$ 1200',
-        Descripcion: 'Lorem ipsum dolor sleep',
+        Nombre: 'Tarjeta de video 30XX',
+        Precio: '$ 2200',
+        Descripcion: 'Tarjeta de video modelo 30XX',
         img: "https://dummyimage.com/300x300/000/e3e3e3.png",
-        Cqategoria: 'hardware'
+        Categoria: 'hardware',
+        stock: 5
     },
     {
         ID: 3,
-        Nombre: 'Producto3',
+        Nombre: 'Mouse XX',
         Precio: '$ 500',
-        Descripcion: 'Lorem ipsum dolor stand',
+        Descripcion: 'Mouse modelo XX',
         img: "https://dummyimage.com/300x300/000/e3e3e3.png",
-        Categoria: 'perifericos'
+        Categoria: 'perifericos',
+        stock: 5
     },
     {
         ID: 4,
-        Nombre: 'Producto4',
-        Precio: '$ 1700',
-        Descripcion: 'Lorem ipsum dolor jump',
+        Nombre: 'Teclado XX',
+        Precio: '$ 900',
+        Descripcion: 'Teclado modelo XX',
         img: "https://dummyimage.com/300x300/000/e3e3e3.png",
-        Categoria: 'perifericos'
+        Categoria: 'perifericos',
+        stock: 5
     },
     {
         ID: 5,
-        Nombre: 'Producto5',
-        Precio: '$ 1700',
-        Descripcion: 'Lorem ipsum dolor jump',
+        Nombre: 'Cámara XX',
+        Precio: '$ 1200',
+        Descripcion: 'Cámara modelo XX',
         img: "https://dummyimage.com/300x300/000/e3e3e3.png",
-        Categoria: 'perifericos'
+        Categoria: 'perifericos',
+        stock: 5
     },
     {
         ID: 6,
-        Nombre: 'Producto6',
-        Precio: '$ 1700',
-        Descripcion: 'Lorem ipsum dolor jump',
-        img: "https://dummyimage.com/300x300/000/e3e3e3.png"
+        Nombre: 'Silla XX',
+        Precio: '$ 2500',
+        Descripcion: 'Silla modelo XX',
+        img: "https://dummyimage.com/300x300/000/e3e3e3.png",
+        Categoria: 'otros',
+        stock: 5
     },
     {
         ID: 7,
-        Nombre: 'Producto7',
-        Precio: '$ 1700',
-        Descripcion: 'Lorem ipsum dolor jump',
-        img: "https://dummyimage.com/300x300/000/e3e3e3.png"
+        Nombre: 'Escritorio',
+        Precio: '$ 2900',
+        Descripcion: 'Escritorio modelo XX',
+        img: "https://dummyimage.com/300x300/000/e3e3e3.png",
+        Categoria: 'otros',
+        stock: 5
     },
     {
         ID: 8,
-        Nombre: 'Producto8',
+        Nombre: 'Auriculares XX',
         Precio: '$ 1700',
-        Descripcion: 'Lorem ipsum dolor jump',
-        img: "https://dummyimage.com/300x300/000/e3e3e3.png"
+        Descripcion: 'Auriculares modelo XX',
+        img: "https://dummyimage.com/300x300/000/e3e3e3.png",
+        Categoria: 'perifericos',
+        stock: 5
     },
 
 ]

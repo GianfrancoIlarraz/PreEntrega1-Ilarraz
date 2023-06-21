@@ -12,7 +12,7 @@ const useProductos = () => {
     useEffect(() => {
         pedirDatos()
             .then((res) => {
-                setLoading(false); 
+                setLoading(false);
                 if (!categoryId) {
                     setProductos(res)
                 } else {

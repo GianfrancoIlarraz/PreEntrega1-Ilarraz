@@ -1,17 +1,17 @@
 .cart__container {
-    height: auto;
-    width: 5rem;
+  height: auto;
+  width: 5rem;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    .cart__icon {
-        width: 50px;
-    }
+  .cart__icon {
+    width: 50px;
+  }
 
-    .cart__counter {
-        font-size: 18px;
-        font-weight: 700;
-    }
+  .cart__counter {
+    font-size: 18px;
+    font-weight: 700;
+  }
 }

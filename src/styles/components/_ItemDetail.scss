@@ -1,0 +1,28 @@
+.itemDetail {
+  background-color: rgb(177, 145, 107);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20%;
+  font-weight: 700;
+  font: bold;
+  background-color: bisque;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.addCount {
+  padding: 5px;
+}

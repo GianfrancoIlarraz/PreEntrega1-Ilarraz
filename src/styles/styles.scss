@@ -1,15 +1,15 @@
-
-
-@import './components/NavBar';
-@import './components/CartWidget';
-@import './components/ItemListContainer';
+@import "./components/NavBar";
+@import "./components/CartWidget";
+@import "./components/ItemListContainer";
+@import "./components/ItemDetail";
+@import "./components/Nosotros";
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color:rgb(139, 119, 87) 
+  background-color: rgb(139, 119, 87);
 }
